@@ -24,5 +24,6 @@ and there is processes completely different from `recursive`, even if they are s
         else (fact (* b n) (- n 1))))
 ```
 which is called `iterative process`, which is just the same as `for`, `while`, `loop` or something else like these in `Instructive Programming Language` like Rust, Java and so on. 
-
+> since there is **no** expand procedure in its running process, so even though they are almost the same in syntax, they are divided into two different parts.
+---
 > and why not haskell? since writing those functions with haskell is not so natural as scheme
